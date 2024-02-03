@@ -13,7 +13,6 @@ import org.jetbrains.annotations.NotNull;
 import java.util.HashMap;
 
 public abstract class CommandHandler implements CommandExecutor {
-
     private final ConsoleLog consoleLog;
 
     protected HashMap<String, BasicCommand> basicPlayerCommands;
